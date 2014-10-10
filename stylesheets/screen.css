@@ -81,12 +81,35 @@ header {
 
 /* line 17, ../sass/screen.scss */
 .bot {
-  position: relative;
-  bottom: 0px;
+  position: absolute;
+  bottom: 0%;
+  left: 0;
+  right: 0;
+  color: white;
 }
 
-/* line 21, ../sass/screen.scss */
+/* line 24, ../sass/screen.scss */
 .main-container {
   width: 80%;
   margin: 0px auto;
+}
+
+/* line 28, ../sass/screen.scss */
+.banner {
+  position: relative;
+}
+
+/* line 31, ../sass/screen.scss */
+.pink-one {
+  background: #8B81BD;
+}
+
+/* line 34, ../sass/screen.scss */
+.pink-two {
+  background: #6364A7;
+}
+
+/* line 37, ../sass/screen.scss */
+.pink-three {
+  background: #364483;
 }

@@ -15,10 +15,25 @@ header{
 	min-height:400px;
 }
 .bot{
-	position:relative;
-	bottom:0px;
+	position:absolute;
+	bottom:0%;
+	left:0;
+	right:0;
+	color:white;
 }
 .main-container{
 	width: 80%;
 	margin:0px auto;
+}
+.banner{
+	position: relative;
+}
+.pink-one{
+	background:#8B81BD;
+}
+.pink-two{
+	background:#6364A7;
+}
+.pink-three{
+	background:#364483;
 }
